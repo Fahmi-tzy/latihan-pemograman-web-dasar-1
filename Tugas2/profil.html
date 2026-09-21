@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil & Portofolio - M Khaerul Fahmi Shaleh</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f7f6;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            background-color: #ffffff;
+            width: 100%;
+            max-width: 600px;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .profile-header {
+            text-align: center;
+        }
+        .profile-header img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+            border: 3px solid #007bff;
+        }
+        .profile-header h1 {
+            margin: 10px 0 5px;
+            color: #333;
+            font-size: 24px;
+        }
+        .profile-header p.title {
+            color: #777;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+        .info-list {
+            margin-top: 20px;
+            border-top: 1px solid #eee;
+            border-bottom: 1px solid #eee;
+            padding: 15px 0;
+        }
+        .info-item {
+            margin-bottom: 10px;
+            font-size: 15px;
+            color: #555;
+        }
+        .info-item strong {
+            color: #333;
+            display: inline-block;
+            width: 130px;
+        }
+        .info-item a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .info-item a:hover {
+            text-decoration: underline;
+        }
+        /* Style untuk Bagian Portofolio */
+        .portfolio-section {
+            margin-top: 25px;
+        }
+        .portfolio-section h2 {
+            font-size: 18px;
+            color: #333;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 5px;
+            display: inline-block;
+        }
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 15px;
+        }
+        .portfolio-card {
+            background-color: #f9f9f9;
+            border: 1px solid #e1e1e1;
+            padding: 15px;
+            border-radius: 6px;
+        }
+        .portfolio-card h3 {
+            margin: 0 0 5px 0;
+            font-size: 16px;
+            color: #007bff;
+        }
+        .portfolio-card p {
+            margin: 0 0 10px 0;
+            font-size: 14px;
+            color: #666;
+        }
+        .portfolio-card a {
+            font-size: 13px;
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .portfolio-card a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Bagian Profil Header -->
+        <div class="profile-header">
+            <!-- Pastikan file poto.jpg ada di folder yang sama dengan file HTML ini -->
+            <img src="foto.jpg" alt="Foto Profil>">
+            <h1>M Khaerul Fahmi Shaleh</h1>
+            <p class="title">Mahasiswa UNIQBHA Bagu</p>
+        </div>
+
+        <!-- Informasi Biodata & Kontak -->
+        <div class="info-list">
+            <div class="info-item">
+                <strong>Jenis Kelamin:</strong> Laki-laki
+            </div>
+            <div class="info-item">
+                <strong>Kampus:</strong> UNIQBHA Bagu
+            </div>
+            <div class="info-item">
+                <strong>Alamat:</strong> Jl. Guru Halimah
+            </div>
+            <div class="info-item">
+                <strong>No. HP:</strong> <a href="https://wa.me/6283850994290" target="_blank">0838-5099-4290</a>
+            </div>
+            <div class="info-item">
+                <strong>Gmail:</strong> <a href="mailto:nihayarifhaldy@gmail.com">nihayarifhaldy@gmail.com</a>
+            </div>
+        </div>
+
+        <!-- Bagian Portofolio -->
+        <div class="portfolio-section">
+            <h2>Portofolio Proyek</h2>
+            <div class="portfolio-grid">
+                
+                <!-- Proyek 1 -->
+                <div class="portfolio-card">
+                    <h3>Website Toko Online</h3>
+                    <p>Membuat <em>e-commerce</em> sederhana menggunakan HTML, CSS, dan JavaScript untuk penjualan produk lokal.</p>
+                    <a href="#" target="_blank">Lihat Proyek &rarr;</a>
+                </div>
+
+                <!-- Proyek 2 -->
+                <div class="portfolio-card">
+                    <h3>Aplikasi Catatan Harian (To-Do List)</h3>
+                    <p>Aplikasi web interaktif untuk mencatat tugas harian dengan fitur tambah dan hapus daftar tugas.</p>
+                    <a href="#" target="_blank">Lihat Proyek &rarr;</a>
+                </div>
+
+                <!-- Proyek 3 -->
+                <div class="portfolio-card">
+                    <h3>Landing Page Perusahaan</h3>
+                    <p>Desain halaman depan perusahaan yang responsif dan ramah pengguna (mobile-friendly).</p>
+                    <a href="#" target="_blank">Lihat Proyek &rarr;</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
